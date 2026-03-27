@@ -1,0 +1,57 @@
+{
+  "physics-type": "non-physics",
+
+  "links": [{
+        "name": "interceptor_body",
+
+        "collision": {
+            "enabled": false
+        },
+
+
+        "visual": { 
+            "geometry": {
+                "type": "unreal_mesh",
+                "name": "/Drone/Quadrotor1",
+                "scale": "1.0 1.0 1.0"
+            }
+        }
+    }],
+
+    "sensors": [
+        {
+            "id": "InterceptionCamera",
+            "type": "camera",
+            "enabled": true,
+            "parent-link": "interceptor_body",
+            "origin": {
+                "xyz": "0 0 0",
+                "rpy-deg": "0 0 0"
+            },
+            "capture-interval": 0.016667,
+            "capture-settings": [{
+                "image-type": 0,
+                "width": 1456,
+                "height": 1088,
+                "fov-degrees": 45,
+                "capture-enabled": true,
+                "streaming-enabled": false,
+                "pixels-as-float": true,
+                "compress": false,
+                "target-gamma": 2.5,
+                "auto-exposure-method": 0.0,
+                "auto-exposure-speed": 15.5,
+                "auto-exposure-bias": 0.0,
+                "auto-exposure-max-brightness": 1.00,
+                "auto-exposure-min-brightness": 0.7,
+                "auto-exposure-low-percent": 0.7,
+                "auto-exposure-high-percent": 0.9,
+                "auto-exposure-histogram-log-min": -8,
+                "auto-exposure-histogram-log-max": 4,
+                "motion-blur-amount": 0.3
+            }]
+
+            
+        }
+        ]
+}

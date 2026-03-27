@@ -1,0 +1,30 @@
+13:24:43:407 [INFO] Connecting to simulation server at 127.0.0.1
+13:24:43:430 [INFO] Connection opened.
+13:24:43:431 [INFO] Started the pub-sub topic receiving thread.
+13:24:43:433 [INFO] Loading scene config: scene_cesium_drone.jsonc
+13:24:44:029 [INFO] Getting the list of available topic info from the sim server...
+13:24:44:041 [INFO] Successfully received topic info list.
+13:24:46:087 [INFO] World object updated for the loaded scene '/Sim/SceneBasicDrone'. Note: Any previous Drone object instances may no longer be valid.
+13:24:46:088 [INFO] Trajectory 'null_trajectory' imported successfully.
+13:24:46:090 [INFO] Initalizing Drone 'interceptor'...
+13:24:46:090 [INFO] -------------------------------------------------
+13:24:46:091 [INFO] The following topics can be subscribed to for robot 'interceptor':
+13:24:46:091 [INFO]     sensors["InterceptionCamera"]["scene_camera"]
+13:24:46:092 [INFO]     sensors["InterceptionCamera"]["scene_camera_info"]
+13:24:46:092 [INFO]     robot_info["actual_pose"]
+13:24:46:093 [INFO]     robot_info["collision_info"]
+13:24:46:094 [INFO]     robot_info["rotor_info"]
+13:24:46:095 [INFO] -------------------------------------------------
+13:24:46:095 [INFO] Drone 'interceptor' initialized for World scene '/Sim/SceneBasicDrone'
+13:24:46:097 [INFO] Initalizing Drone 'target'...
+13:24:46:098 [INFO] -------------------------------------------------
+13:24:46:099 [INFO] The following topics can be subscribed to for robot 'target':
+13:24:46:100 [INFO]     robot_info["actual_pose"]
+13:24:46:100 [INFO]     robot_info["collision_info"]
+13:24:46:101 [INFO]     robot_info["rotor_info"]
+13:24:46:102 [INFO] -------------------------------------------------
+13:24:46:103 [INFO] Drone 'target' initialized for World scene '/Sim/SceneBasicDrone'
+13:24:46:104 [INFO] Getting the list of available topic info from the sim server...
+13:24:46:115 [INFO] Successfully received topic info list.
+13:35:03:256 [INFO] Disconnecting from simulation server...
+13:35:03:282 [INFO] Disconnected.
