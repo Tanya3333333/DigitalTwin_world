@@ -17,7 +17,7 @@
     "type": "robot",
     "name": "target",
     "origin": {
-      "xyz": "20 0 0",
+      "xyz": "60 0 -5",
       "rpy-deg": "0 0 0"
     },
     "robot-config": "robot_target.jsonc",

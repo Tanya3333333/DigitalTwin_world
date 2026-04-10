@@ -4,10 +4,10 @@
   "links": [{
         "name": "target_drone_body",
 
+
         "collision": {
             "enabled": false
         },
-
 
         "visual": { 
             "geometry": {
